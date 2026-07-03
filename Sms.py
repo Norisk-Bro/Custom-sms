@@ -1,6 +1,6 @@
 import Freesms
 
-# আপনার মেইন ফাংশনটি কল করুন
+# Abal 🤣🤣🤣
 try:
     Freesms.send_sms()
 except Exception as e:
