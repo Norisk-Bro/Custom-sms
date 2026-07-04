@@ -1,2 +1,8 @@
 #!/usr/bin/python
 import Freesms
+
+# আপনার মেইন ফাংশনটি কল করুন যা দিয়ে টুলটি চালু হবে
+try:
+    Freesms.send_sms()
+except Exception as e:
+    print(f"Error: {e}")
