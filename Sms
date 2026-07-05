@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import Freesms
 try:
-    Freesms.start_app() # এখানে send_sms এর বদলে start_app হবে
+    Freesms.start_app()
 except Exception as e:
     print(f"Error: {e}")
+#Only 64bit
