@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
 import Freesms
 
-# Abal 🤣🤣🤣
-try:
-    Freesms.send_sms()
-except Exception as e:
-    print(f"Error: {e}")
+if __name__ == "__main__":
+    try:
+        Freesms.start_app()
+    except Exception as e:
+        print(f"Error: {e}")
